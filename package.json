@@ -1,0 +1,19 @@
+{
+  "name": "learn-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serverStart": "node genres-api.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^4.19.2",
+    "joi": "^17.13.1",
+    "uuid": "^9.0.1"
+  },
+  "proxy": "http://localhost:3000"
+}
